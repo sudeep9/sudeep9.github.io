@@ -25,13 +25,16 @@
                 load++;
                 if(load > 1){
                     /*Second reload is a submit*/
-                    window.parent.postMessage("A", "*");
+                    //window.parent.postMessage("A", "*");
+                    window.location = "https://www.picktime.com/akiraskinclinic";
                 }
             }
 
+            /*
             window.addEventListener("A", function(event) {
                 window.parent.postMessage("B", "*");
             });
+            */
 
         </script>
     </body>
